@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  /* border: 1px solid gray; */
+  margin: 40px 0px;
+}
+
+figure {
+  margin: 40px 0px;
+}
+
+figcaption {
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #999999;
+}
+
+.center {
+  max-width: 880px;
+  margin: 0px auto;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0px 0px 55px 0px;
+}
+
+.descrition {}
+
+.descrition-title-list {
+  font-size: 24px;
+  margin: 0px 0px 38px 0px;
+}
+
+.counter-list {
+  counter-reset: myCounter;
+}
+
+strong {
+  display: block;
+  margin: 0px 0px 24px 0px;
+}
+
+.list-item {
+  margin-bottom: 15px;
+  list-style: none;
+  position: relative;
+  padding-left: 68px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.list-item a {
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+
+.list-item a:hover {
+  color: #6EC1E4;
+}
+
+.list-counter::before {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: white;
+  background: #404040;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.description-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+  font-weight: 400;
+  margin: 0px 0px 28px 0px;
+}
+
+
+.size-full {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+
+.wp-image-6640 {}
+
+.list-item-text {
+  margin: 0px 0px 28px 0px;
+  line-height: 28px;
+}
+
+.pirple-item::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #8123FF;
+  border-radius: 50%;
+  position: absolute;
+  left: 25px;
+  top: 5px;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+
+.pirple-item:hover:before {
+  background: #8123FF;
+
+}
